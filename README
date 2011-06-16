@@ -1,0 +1,37 @@
+A collection of scripts that were helpful migrating phones and testing our e911 system.
+
+This uses the OSSI client code for Avaya phone switches (Communications Manager) that Ben from the University of Washington wrote.
+
+http://tools.cac.washington.edu/2010/04/avaya-pbx-admin-web-service.html
+
+His method was to develop a full web service system. I just wanted to write a couple script to make my life easier.
+
+Some of these scripts relate to local assumptions and names, outputs of other internal scripts, and whatnot.  I included them as additional example can be helpful when trying to figure out good ways of getting and setting fields on CM.
+
+Everything I wrote I'm keeping under the license of the code I used. Figure things are easier that way.
+-- 
+Jason Castonguay
+
+[Most of the files]
+  Copyright 2011 Jason Castonguay
+
+[DEFINITY_ossi.pm]
+Benjamin Roy <benroy@uw.edu>
+
+Copyright: May 2008
+License: Apache 2.0
+
+
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
